@@ -190,7 +190,7 @@ class DocExtractor(NLPIRBase):
         """
         Call **DocEntityExtract_Batch_GetResult**
 
-        获取关键词识别的结果, 需要在运行DocEntityExtract_Batch_Complete()之后，才有效
+        获取实体词识别的结果, 需要在运行DocEntityExtract_Batch_Complete()之后，才有效
 
         :param weight_out: 是否需要输出每个关键词的权重参数
         :return: 输出格式为:【关键词属性】 【实体词】 ...
